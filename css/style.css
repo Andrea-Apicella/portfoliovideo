@@ -9,15 +9,25 @@
 //--//-->   STYLES GENERALES
 ======================================*/
 
-
+#whatsapp_icon,
+#telegram_icon,
+#telephone_icon{
+  position: relative;
+  top: 2px;
+}
+#mailicon{
+  position: relative;
+  top:4px;
+  margin-right: 2px;
+}
+#telephone_icon {
+  margin-right:10px;
+}
 body {
   background-color: #f5f5f5;
   color: #4e4e4e;
 }
 
-.spacer5 {
-  height:30px;
-}
 
 h1,
 h2,
