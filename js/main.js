@@ -70,7 +70,6 @@
 	});
 	/*--/ End Scrolling nav /--*/
 
-
 	/*--/ Navbar Menu Reduce /--*/
 	$(window).trigger('scroll');
 	$(window).on('scroll', function () {
