@@ -69,6 +69,12 @@
 		offset: navHeight
 	});
 	/*--/ End Scrolling nav /--*/
+	BigPicture({
+  el: this,
+  vidSrc: 'http://yourvideo.mp4'
+  // or with multiple sources
+  // vidSrc: ['http://yourvideo.mp4', 'http://yourvideo.webm']
+})
 
 	/*--/ Navbar Menu Reduce /--*/
 	$(window).trigger('scroll');
